@@ -6,3 +6,5 @@
 open the binary with ida pro, find every `mov whatever, 0xc0000428` and replace it with `mov whatever, 0x0` (replacing `whatever` with whatever operand the instruction is using)
 
 `c0000428h` is the NTSTATUS value for invalid image hash, so we replace that with 0x0 so that it doesn't look for that value, thus disabling code integrity.
+
+you must also use "update checksums" option in cff explorer after patching or windows will refuse to load it.

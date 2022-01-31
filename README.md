@@ -1,5 +1,4 @@
-# nt61
-kernel update for windows 7 (nt 6.1)
+# nt61: kernel update for windows 7 (nt 6.1) [work in progress]
 
 ### YOU MUST!!! USE "recoveryenabled=No" and "nointegritychecks=Yes" OPTION IN BCDEDIT! system recovery will mess up your kernel, and integrity checks will prevent patched winload from loading. so we disable them for this reason.
 

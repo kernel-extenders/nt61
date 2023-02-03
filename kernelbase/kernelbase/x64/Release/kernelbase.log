@@ -1,0 +1,35 @@
+﻿Build started 2/3/2023 1:17:55 PM.
+     1>Project "C:\Users\maik\Desktop\nt61-main\kernelbase\kernelbase\kernelbase.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Release\kernelbase.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "x64\Release\kernelbase.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /D _WINDLL /D _UNICODE /D UNICODE /MT /GS- /Gy- /fp:precise /fp:except- /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TC /errorReport:prompt kernelbase.c
+         kernelbase.c
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Release\kernelbase.dll.embed.manifest.res" x64\Release\kernelbase_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.dll" /INCREMENTAL /NOLOGO /NODEFAULTLIB /MANIFEST /ManifestFile:"x64\Release\kernelbase.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"RawDllMain" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.lib" /MACHINE:X64 /DLL x64\Release\kernelbase.dll.embed.manifest.res
+         x64\Release\kernelbase.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+            Creating library C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.lib and object C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.exp
+         kernelbase.vcxproj -> C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.dll
+       Manifest:
+         Deleting file "x64\Release\kernelbase.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Release\kernelbase.dll.embed.manifest" /manifest x64\Release\kernelbase.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Release\kernelbase.dll.embed.manifest.res" x64\Release\kernelbase_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.dll" /INCREMENTAL /NOLOGO /NODEFAULTLIB /MANIFEST /ManifestFile:"x64\Release\kernelbase.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"RawDllMain" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.lib" /MACHINE:X64 /DLL x64\Release\kernelbase.dll.embed.manifest.res
+         x64\Release\kernelbase.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+            Creating library C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.lib and object C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.exp
+         kernelbase.vcxproj -> C:\Users\maik\Desktop\nt61-main\kernelbase\x64\Release\kernelbase.dll
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\kernelbase.unsuccessfulbuild".
+         Touching "x64\Release\kernelbase.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\nt61-main\kernelbase\kernelbase\kernelbase.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.87

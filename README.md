@@ -10,4 +10,8 @@ open the binary with ida pro, find every `mov whatever, 0xc0000428` and replace 
 you must also use "update checksums" option in cff explorer after patching or windows will refuse to load it.
 
 ## KernelBase
-WIP kernelbase extension can be found in kernelbase folder, this is the first dll i am working on.
+WIP kernelbase extension can be found in kernelbase folder, this is the first dll i am working on
+
+WARNING: KernelBase CAN NOT import kernel32 or any dependant of kernel32!!! you will cause circular dependencies & crash the system
+
+for future reference: kernelbase stuff will more than likely be moved into kernel32 as it is easier to work with that way (exports from just about any system dll can be moved into kernel32 pretty easily)

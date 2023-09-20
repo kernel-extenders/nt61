@@ -9,6 +9,10 @@ open the binary with ida pro, find every `mov whatever, 0xc0000428` and replace 
 
 you must also use "update checksums" option in cff explorer after patching or windows will refuse to load it.
 
+## wintrust
+
+wintrust patch to enable anticheat games & drm to run with patched system binaries such as kernel32.
+
 ## winhttp
 
 winhttp wrapper, to run elden ring game without any game mods (only needing dxvk for directx 12) source can be found in the winhttp folder. prebuilt binaries are available on my Windows 7 Development discord (for link, PM me on discord: dotexe1337)
